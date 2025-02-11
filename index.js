@@ -4,8 +4,8 @@ const width = window.innerWidth;
 const height = window.innerHeight;
 
 // cells change the size and complexity of the maze
-const cellsHorizontal = 3;
-const cellsVertical = 3;
+const cellsHorizontal = 10;
+const cellsVertical = 10;
 
 //this is so the maze cells fit to maze size 
 const unitLengthX = width / cellsHorizontal;
