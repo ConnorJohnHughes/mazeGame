@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- You have to use the old version of this link for matter.js the new versions have different physic based properties
+         that won't make the walls fall when gravity is turned back on-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+    <style>
+        body {
+            margin: 0%;
+        }
+        .hidden {
+            display: none !important;
+        }
+        h1 {
+            color: white;
+            font-size: 150px;
+        }
+
+        .winner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            height: 125vh;
+            width: 100vw;
+        }
+    </style>
+    </head>
+        <body>
+            <div class="winner hidden">
+                <h1>YouWin!</h1>
+            </div>
+            <script src="index.js"></script>
+        </body>
+</html>
